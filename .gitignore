@@ -1,0 +1,9 @@
+node_modules/
+.ccg/
+.wrangler/
+.dev.vars
+dist/
+.DS_Store
+wrangler.jsonc
+wrangler.local.jsonc
+public/site-config.local.js

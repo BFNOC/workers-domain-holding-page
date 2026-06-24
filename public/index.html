@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="A quiet personal holding page for a domain that may be available to the right buyer."
+    >
+    <title>A quiet place on the web</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="site-header" aria-label="Site navigation">
+      <a class="wordmark" href="/" aria-label="Home">
+        <span class="mark" aria-hidden="true"></span>
+        <span data-domain>example.com</span>
+      </a>
+      <div class="header-actions">
+        <div class="language-switcher" role="group" aria-label="Language">
+          <button class="language-option" type="button" data-lang-button="en" aria-pressed="true">EN</button>
+          <button class="language-option" type="button" data-lang-button="zh" aria-pressed="false">中文</button>
+        </div>
+        <a class="availability" data-mail-link data-availability href="mailto:hello@example.com">
+          Available by email
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="kicker" data-hero-kicker>Private holding page</p>
+          <h1 id="hero-title" data-hero-title>A quiet place for useful things.</h1>
+          <p class="lead" data-hero-lead>
+            I keep a bias for clean tools, long-lived projects, careful writing,
+            and pages that do not rush to please everyone.
+          </p>
+          <p data-hero-body>
+            This is a temporary home for <strong data-domain>example.com</strong>.
+            It can remain quiet for now. It can also become something more
+            precise when the right idea arrives.
+          </p>
+        </div>
+
+        <figure class="hero-visual">
+          <img data-visual-image src="./assets/hero.jpg" alt="A quiet desk with a notebook, pen, and coffee.">
+          <figcaption data-visual-caption>
+            Notes, tools, small systems, and the patience to keep them useful.
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="principles" aria-label="What belongs here">
+        <div class="principle">
+          <span>01</span>
+          <h2 data-principle-title="0">Tools with restraint</h2>
+          <p data-principle-body="0">Small surfaces, clear affordances, no unnecessary theatre.</p>
+        </div>
+        <div class="principle">
+          <span>02</span>
+          <h2 data-principle-title="1">Writing that holds up</h2>
+          <p data-principle-body="1">Plain language for complicated work, without performing certainty.</p>
+        </div>
+        <div class="principle">
+          <span>03</span>
+          <h2 data-principle-title="2">Projects with a long memory</h2>
+          <p data-principle-body="2">Things worth returning to, maintained beyond the first spark.</p>
+        </div>
+      </section>
+
+      <section class="domain-note" aria-labelledby="domain-title">
+        <div>
+          <p class="kicker" data-domain-kicker>About this domain</p>
+          <h2 id="domain-title" data-domain-title><span data-domain>example.com</span> may be transferred.</h2>
+        </div>
+        <div class="domain-copy">
+          <p data-domain-note>
+            This domain is currently held for a quiet, long-term project. It may
+            be available to the right buyer.
+          </p>
+          <p>
+            <span data-contact-prefix>If you have a serious use for it, send a direct note to</span>
+            <a data-mail-link data-email href="mailto:hello@example.com">hello@example.com</a><span data-contact-suffix>.</span>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span data-footer-owner>Maintained by <span data-owner>the owner</span>.</span>
+      <span data-footer-host>Hosted on Cloudflare Workers.</span>
+    </footer>
+
+    <script src="./site.js"></script>
+  </body>
+</html>

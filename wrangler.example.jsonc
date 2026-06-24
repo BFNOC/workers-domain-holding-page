@@ -1,0 +1,18 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "domain-temp-page",
+  "main": "./src/index.js",
+  "compatibility_date": "2026-06-24",
+  "workers_dev": true,
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/site-config.local.js", "/assets/proxy-image"]
+  },
+  "vars": {
+    "IMAGE_PROXY_SOURCE": ""
+  }
+  // Copy this file to wrangler.jsonc for local development and deployment.
+  // Put real Cloudflare Custom Domains only in the ignored wrangler.jsonc file.
+}

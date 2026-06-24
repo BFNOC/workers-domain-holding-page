@@ -1,0 +1,13 @@
+{
+  "name": "cloudflare-temp-page",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Static Cloudflare Workers page for customizable domain holding pages.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.104.0"
+  }
+}
